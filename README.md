@@ -1,5 +1,5 @@
 
-```markdown
+
 #  Synced NotePad
 
 A minimalistic, real-time synced notepad app for **Android and Windows**, built with Kotlin, Jetpack Compose, and Firebase. Create, edit, and manage notes with cloud syncing and cross-device access.
