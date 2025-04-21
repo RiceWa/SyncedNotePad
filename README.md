@@ -11,16 +11,14 @@ A minimalistic, real-time synced notepad app for **Android and Windows**, built 
 - Create, edit, and delete notes
 - Realtime syncing with Firebase
 - Search and filter notes by content, title, or tags
-- UI built with jetpack compose
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Kotlin + Jetpack Compose**
-- **Firebase Realtime Database + Firebase Auth**
-- **Material3 Design**
-- **Git + GitHub for version control**
+- **Kotlin**
+- **Jetpack Compose**
+- **Firebase**
 
 ---
 
