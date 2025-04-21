@@ -6,6 +6,7 @@ plugins {
 
 apply(plugin = "com.google.gms.google-services")
 
+val firebaseApiKey: String = project.findProperty("FIREBASE_API_KEY") as? String ?: ""
 
 android {
     namespace = "com.example.syncednotepad"
@@ -19,6 +20,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "FIREBASE_API_KEY", "\"$firebaseApiKey\"")
     }
 
     buildTypes {
